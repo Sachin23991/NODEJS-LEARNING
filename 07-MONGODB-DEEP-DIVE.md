@@ -22,7 +22,7 @@ const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
 
 const MONGODB_URL =
-    'mongodb+srv://sachin:rao9350@cluster0.1akwopc.mongodb.net/airbnb-updated?retryWrites=true&w=majority&appName=Cluster0';
+
 
 let _db;  // Store connection globally
 
@@ -53,7 +53,7 @@ module.exports = { mongoConnect, getDb };
 ## 3. URL Breakdown
 
 ```
-mongodb+srv://sachin:rao9350@cluster0.1akwopc.mongodb.net/airbnb-updated
+
 protocol      user    password              server                     database
 ```
 
